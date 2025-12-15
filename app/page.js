@@ -10,13 +10,13 @@ import Section7 from '@/components/Section7'
 
 export default function Home() {
     return (
-        <main>
+        <main id="accueil">
             <Section1 />
             <Section2 />
             <Section3 />
             <Section6 />
-            <Section4 />
             <Section7 />
+            <Section4 />
             <Section5 />
         </main>
     )

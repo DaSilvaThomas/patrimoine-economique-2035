@@ -1,4 +1,5 @@
 import './globals.css'
+import Navbar from '@/components/Navbar'
 
 export const metadata = {
     title: 'Patrimoine Économique Français 2035',
@@ -8,7 +9,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="fr">
-            <body>{children}</body>
+            <body>
+                <Navbar />
+                <div className="pt-16">
+                    {children}
+                </div>
+            </body>
         </html>
     )
 }
