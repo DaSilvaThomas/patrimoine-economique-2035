@@ -104,14 +104,14 @@ export default function Section4() {
                         >
                             <div className="bg-white rounded-2xl shadow-xl p-8 border-l-4 border-bleu-nuit">
                                 <h3 className="text-2xl font-bold text-bleu-nuit mb-4 flex items-center">
-                                <span className="mr-3">📊</span> Dimension économique
+                                <span className="mr-3"></span> Dimension économique
                                 </h3>
                                 <p className="text-gray-700 text-lg leading-relaxed">{scenario.economique}</p>
                             </div>
 
                             <div className="bg-white rounded-2xl shadow-xl p-8 border-l-4 border-cyan">
                                 <h3 className="text-2xl font-bold text-bleu-nuit mb-4 flex items-center">
-                                <span className="mr-3">👥</span> Dimension sociale
+                                <span className="mr-3"></span> Dimension sociale
                                 </h3>
                                 <p className="text-gray-700 text-lg leading-relaxed">{scenario.social}</p>
                             </div>
