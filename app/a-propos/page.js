@@ -7,6 +7,7 @@ const teamMembers = [
     { name: 'Amrane BOUDRICHE', role: 'Étudiant' },
     { name: 'Youcef ZITOUNI', role: 'Étudiant' },
     { name: 'Ousmane NDIONE', role: 'Étudiant' },
+    { name: 'Rossindji VEGAND', role: 'Étudiant' },
 ]
 
 export default function APropos() {
